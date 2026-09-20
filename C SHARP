@@ -1,0 +1,28 @@
+using System; 
+
+class Program
+{ 
+
+    static void Main(string[] args)            
+    {
+
+        Console.WriteLine("What is your name?");
+        string name = (Console.ReadLine());
+
+        Console.WriteLine("How old are you?");
+        int age = Convert.ToInt32(Console.ReadLine());
+
+        Console.WriteLine("How much money do you have (19.99)? ");
+        double price = double.Parse(Console.ReadLine());
+
+        Console.WriteLine("What letter grade did you get in school (A)? "); 
+        char grade = Convert.ToChar(Console.ReadLine());
+
+        Console.WriteLine("Are you a student? (true/false) ");
+        bool isStudent = bool.Parse(Console.ReadLine());
+      
+        Console.WriteLine();
+        Console.WriteLine($" My name is {name}, I am {age} years old, I have ${price} in my pocket, I got a {grade} in school, and it is {isStudent} that I am a currently a student");
+
+    }  
+}
