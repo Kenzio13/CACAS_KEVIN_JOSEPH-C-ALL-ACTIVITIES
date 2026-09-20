@@ -1,0 +1,49 @@
+using System; 
+
+class Program
+{ 
+
+    static void Main(string[] args)            
+    {
+
+        string name = "Kev";
+        int age = 20;
+        char grade = 'E';
+        bool isgraduated = true;
+        double price = 69.69 ;
+
+        Console.WriteLine(name);
+        Console.WriteLine(age);
+        Console.WriteLine(grade);
+        Console.WriteLine(isgraduated); 
+        Console.WriteLine(price);
+    
+             
+
+    }   
+}
+
+
+
+using System; 
+
+class Program
+{ 
+
+    static void Main(string[] args)            
+    {
+
+        string name = "Kevin"; 
+        int age = 20;
+        double pricePerKilo = 15.99;
+        char storeName = 'E';
+        bool isHighValueFruit = false;
+
+        Console.WriteLine("Hi my name is" + name + ".");
+        Console.WriteLine($"Hi my name is {name}.");
+        Console.WriteLine($"I am {age} years old.");
+        Console.WriteLine($"I bought an apple at store {storeName} for {pricePerKilo} per kilo."); 
+        Console.WriteLine($"Is it known for selling high-value fruit? {isHighValueFruit}");
+
+    }  
+}
